@@ -1,0 +1,18 @@
+---
+description: More MDX
+sidebar_label: More Info
+sidebar_position: 2
+---
+
+# MDX - More Info
+
+You can also import your own components defined in other files or third-party components installed via npm.
+
+```
+<!-- External component -->
+import Button from '@mui/material/Button';
+```
+
+As per my testing, this import worked fine in _src/pages_ directory but failed in _docs_ directory.
+
+By convention, using the `_` filename prefix will not create any doc page and means the Markdown file is a "partial", to be imported by other files.

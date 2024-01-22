@@ -1,0 +1,10 @@
+.tab {
+	background-color: purple;
+}
+
+.orange {
+  background-color: orange;
+}
+.orange[aria-selected='true'] {
+  border-bottom-color: orange;
+}

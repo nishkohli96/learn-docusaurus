@@ -1,0 +1,7 @@
+# both _category_.json & _category_.yml are equivalent
+position: 4
+label: Markdown Features
+collapsible: true # make the category collapsible
+collapsed: false # keep the category open by default
+customProps:
+  description: features of markdown syntax
